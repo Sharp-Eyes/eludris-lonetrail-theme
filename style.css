@@ -504,6 +504,7 @@ a:hover {
 .theme-name {
   font-family: var(--header-font);
   text-transform: uppercase;
+  color: white;
 }
 
 .theme-container {
