@@ -111,12 +111,13 @@ details summary,
 
 .author-avatar {
   border: solid 0.5ex white;
-  filter: drop-shadow(0 0 1ex #18181844)
+  filter: drop-shadow(0 0 1ex #18181844);
 }
 
 .author-name, .user-info span:first-child, #instance-name, #settings-nav {
   font-family: var(--header-font) !important;
   text-transform: uppercase !important;
+  font-weight: normal !important;
 }
 
 #options-div {
