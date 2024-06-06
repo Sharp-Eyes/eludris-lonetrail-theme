@@ -58,7 +58,8 @@ body {
   box-sizing: border-box;
 }
 
-.setting > textarea,
+.setting.grid,  /* Theme browser */
+.setting > textarea,  /* Custom styles window */
 .setting:has(#info),  /* Profile settings menu */
 #message-input-form,
 .setting.account-info,
@@ -202,7 +203,8 @@ footer {
   border-radius: 10px 10px 0 0 !important;
 }
 
-.theme-container::after,
+.theme-container:hover::after,
+.theme-container:focus::after,
 #user::after,
 #profile::after,
 #user-display::after,
@@ -496,5 +498,27 @@ a:hover {
 }
 
 .popup-confirm:not([disabled]):hover {
+  background-color: var(--lonetrail-teal) !important;
+}
+
+.theme-name {
+  font-family: var(--header-font);
+  text-transform: uppercase;
+}
+
+.theme-container {
+  border-radius: 10px !important;
+}
+
+.theme-container:hover {
+  box-shadow: unset !important;
+  border-radius: 10px 10px 0 0 !important;
+}
+
+.confirm {
+  background-color: var(--lonetrail-olive) !important;
+}
+
+.confirm:hover {
   background-color: var(--lonetrail-teal) !important;
 }
