@@ -524,3 +524,7 @@ a:hover {
 .confirm:hover {
   background-color: var(--lonetrail-teal) !important;
 }
+
+.setting.grid {
+  width: 100% !important;
+}
