@@ -1,17 +1,17 @@
 @font-face {
   font-family: "Lonetrail Bold";
-  src: url(https://cdn.eludris.gay/3446439804981);
+  src: url(https://cdn.eludris.com/6462265229323);
 }
 
 @font-face {
   font-family: "Lonetrail Regular";
-  src: url(https://cdn.eludris.gay/3446436528180);
+  src: url(https://cdn.eludris.com/6462266277900);
 }
 
 :root {
-  --lonetrail-tile: url(https://cdn.eludris.gay/3438592589852);
-  --lonetrail-sidebar: url(https://cdn.eludris.gay/3441283039281);
-  --rhine-logo: url(https://cdn.eludris.gay/3439484272675);
+  --lonetrail-tile: url(https://cdn.eludris.com/5510706692134);
+  --lonetrail-sidebar: url(https://cdn.eludris.com/6462244651015);
+  --rhine-logo: url(https://cdn.eludris.com/6493170565147);
 
   --lonetrail-white: #f5eddc;
   --lonetrail-grey: #181818;
@@ -355,7 +355,8 @@ a:hover {
 }
 
 .md img {
-  max-width: 100%;
+  max-width: 100% !important;
+  max-height: 50vh !important;
 }
 
 .md pre {
