@@ -14,5 +14,5 @@ Let me know in an issue on the [repository](https://github.com/sharp-eyes/eludri
 
 ## Preview Images
 
-![image.png](https://cdn.eludris.gay/next/5540114989101)
-![image.png](https://cdn.eludris.gay/next/5540179214382)
+![image.png](https://cdn.eludris.com/5540114989101)
+![image.png](https://cdn.eludris.com/5540179214382)
